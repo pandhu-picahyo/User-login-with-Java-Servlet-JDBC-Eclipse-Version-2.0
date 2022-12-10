@@ -47,7 +47,7 @@ public class User_View extends HttpServlet {
         		 		+ "<td>"+e.getName()+"</td>"
         		  		+ "<td>"+e.getEmail()+"</td>"
         		  		+ "<td>"+e.getFilename()+"</td>"
-        		  		+ "<td><a href='Edit_Personal_Data?id="+e.getId()+"'><button type=\"button\">Edit</button></a></td>"
+        		  		+ "<td><a href='edit-personal-data.jsp?id="+e.getId()+"'><button type=\"button\">Edit</button></a></td>"
         		  		+ "<td><a href='Delete_User?id="+e.getId()+"'><button type=\"button\">Delete</button></a></td></tr>"); 
          
         }  

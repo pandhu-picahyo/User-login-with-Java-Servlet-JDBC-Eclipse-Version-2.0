@@ -42,7 +42,7 @@ public class Detail_Data extends HttpServlet {
         out.print(
         		 		"<br><br><tr><td>"
         		 		
-        		 		+ "<h1><a href='Edit_User_Data?id="+e.getId()+"'><button type=\"button\" class=\"btn btn-outline-primary\">Edit</button></a>"
+        		 		+ "<h1><a href='edit-data.jsp?id="+e.getId()+"'><button type=\"button\" class=\"btn btn-outline-primary\">Edit</button></a>"
         		 		
         		  		+ "<a href='Delete_Data?id="+e.getId()+"'><button type=\"button\" class=\"btn btn-outline-primary\">Delete</button></a>"
         		  				
