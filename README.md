@@ -11,28 +11,43 @@ In this Web Application, we have Login page, User Home Screen and Admin Dashboar
 For version update log, please goto https://github.com/pandhu-picahyo/User-login-with-Java-Servlet-JDBC-Eclipse-Version-2.0/blob/master/Proasg-02/Version_log.md
 
 # Login Page
-![1 Login page_page-0001](https://user-images.githubusercontent.com/117777807/204150387-a1afbc33-6b5c-412c-a3f2-f47fb057f099.jpg)
+![1 Login_page-0001](https://user-images.githubusercontent.com/117777807/208359247-74bcb281-cf42-4419-9e28-b46657270013.jpg)
 
 # User Registration or Sign Up
-![2 Sign UP_page-0001](https://user-images.githubusercontent.com/117777807/204150396-9d3c8147-98f1-49e4-be2b-b902123d5b88.jpg)
+![2 sign up_page-0001](https://user-images.githubusercontent.com/117777807/208359267-f244ad84-ad88-43c5-88be-98bfe06e486f.jpg)
+
+# Username Already Exist
+![3 username already exist_page-0001](https://user-images.githubusercontent.com/117777807/208359449-0b6de799-b9d4-47fe-90b0-c4ac2999cf34.jpg)
+
+# Incorrect Confirm Password
+![4 incorrect confirm password_page-0001](https://user-images.githubusercontent.com/117777807/208359539-3e2bb8fd-a93a-4f3a-ba02-7ad4b5c9dca1.jpg)
+
+# Sign Up Successfully
+![5 data insert successfully_page-0001](https://user-images.githubusercontent.com/117777807/208359593-7994ef85-3f6e-482a-b52e-0abbca0b72bd.jpg)
+
+# Login Wrong username or Password
+![10 login wrong username or password_page-0001](https://user-images.githubusercontent.com/117777807/208359389-933ad42d-6b47-4277-8ca4-50cfb4ee8237.jpg)
 
 # User Home Page
-![5 User Home Page_page-0001](https://user-images.githubusercontent.com/117777807/204150439-f15e4c01-6256-4f3d-9382-531aeb2899d1.jpg)
+![6 user home page_page-0001](https://user-images.githubusercontent.com/117777807/208359643-e904e430-41f4-4e9e-b77d-fcc5480d2cde.jpg)
 
-# User Upload File
-![6 upload file_page-0001](https://user-images.githubusercontent.com/117777807/204150445-2a9e5505-c195-49ca-b3fa-d49c4fda6a31.jpg)
+# Add User Personal Data
+![7 add user data_page-0001](https://user-images.githubusercontent.com/117777807/208359711-ae10b5ac-02f2-46db-8950-d4af01cf62dc.jpg)
 
-# User View Personal Data View
-![7 User personal_View_page-0001](https://user-images.githubusercontent.com/117777807/204150452-43603955-e9d4-4284-b81c-6caf670389b5.jpg)
+# View Personal Data
+![8 view personal data_page-0001](https://user-images.githubusercontent.com/117777807/208359755-cc207bbd-095c-49d6-9c20-08da024862eb.jpg)
 
-# User Edit Personal Data
-![8 Edit_Personal_Data_page-0001](https://user-images.githubusercontent.com/117777807/204150463-10a0290b-dace-4585-8d33-1186d4766ab4.jpg)
+# Edit Personal Data
+![9 edit personal data_page-0001](https://user-images.githubusercontent.com/117777807/208359781-7837a9cd-fcdd-4a36-8b83-3bf6b6d6c1c0.jpg)
 
 # Admin Dashboard
-![3 Admin_View_page-0001](https://user-images.githubusercontent.com/117777807/204150423-85376730-9d64-4eb9-ad0d-4945e47e983b.jpg)
+![11 admin dashboard_page-0001](https://user-images.githubusercontent.com/117777807/208359865-1235b217-6505-4710-9516-6b2469bb056d.jpg)
 
-# Admin view User Data
-![3 Admin View Detail_Data_page-0001](https://user-images.githubusercontent.com/117777807/204150421-8c618f72-e0aa-4daa-80c3-a3dd0ee9b7bd.jpg)
+# Admin Dashboard after deleting the data
+![12 admin delete data_page-0001](https://user-images.githubusercontent.com/117777807/208359925-8a5c6bd6-c8b0-4397-a38b-9aeaac1b6285.jpg)
 
-# Admin Edit User Data
-![4 Admin View Edit_Data_page-0001](https://user-images.githubusercontent.com/117777807/204150434-05e629ba-544d-48e6-bdc9-81f086c43e79.jpg)
+# Admin View Detail
+![13 view detail data_page-0001](https://user-images.githubusercontent.com/117777807/208359962-70691422-6c95-45c1-a1c6-b60a1e704b99.jpg)
+
+# Admin Edit Data
+![14 admin edit data_page-0001](https://user-images.githubusercontent.com/117777807/208360009-1009cecf-7f54-463a-b05c-7fa9e8185383.jpg)
