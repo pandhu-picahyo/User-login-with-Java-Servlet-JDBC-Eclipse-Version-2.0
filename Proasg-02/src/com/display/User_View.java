@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 import java.util.List;
+
 import com.info.User;
 import com.dao.User_Dao;
   
@@ -50,7 +51,7 @@ public class User_View extends HttpServlet {
         		  		+ "<td><a href='edit-personal-data.jsp?id="+e.getId()+"'><button type=\"button\">Edit</button></a></td>"
         		  		+ "<td><a href='Delete_User?id="+e.getId()+"'><button type=\"button\">Delete</button></a></td></tr>"); 
          
-        }  
+        }
         out.print("</table>");
         out.println("</div>");
         out.print("</center>");

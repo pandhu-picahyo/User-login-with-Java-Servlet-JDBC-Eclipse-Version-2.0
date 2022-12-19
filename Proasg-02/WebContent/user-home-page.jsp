@@ -17,6 +17,12 @@
 			background: linear-gradient(#FFFFFF, #E6E6FA, #C3B1E1, #E0B0FF, #CF9FFF, #FFFFFF);
 		}
 	
+		button {
+  			width: 100%;
+  			height: 100px;
+  			margin: 15px;
+  			background-color: #50C878;
+		}
 		
 </style>
 
@@ -30,7 +36,7 @@
      <img class="icon" src="data:image/jpg;base64,${user.basephoto}"
             style="width: 70px; border-radius: 80%; margin-right: 10px; margin-bottom: 10px">
 	 <a href="login-page.jsp" class="container-login100-form-btn m-t-17">
-            <button type="submit" class="login100-form-btn">
+            <button type="submit" class="login100-form-btn" style="height:50px; width:150px; font-size:20px">
                   	LOG OUT </button></a>
 	 </h1>
      </center>

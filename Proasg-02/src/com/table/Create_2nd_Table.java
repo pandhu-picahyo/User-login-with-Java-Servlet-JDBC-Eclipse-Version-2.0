@@ -39,12 +39,12 @@ public class Create_2nd_Table {
 			// STEP 4.1 : Creating the table
 			
 			String sql = "CREATE TABLE userdata2 "+
-			" (id INT auto_increment primary key, " +	
-			" name VARCHAR(200), " +
+			" (id INT auto_increment primary key, " +
+			" name VARCHAR(200), " +	
 			" email VARCHAR(200), " +
 			" file LONGBLOB, " +
 			" filename VARCHAR(200), " +
-			" comment VARCHAR(1000) )";
+			" comment TEXT )";
 			
 			stmt.executeUpdate(sql);
 			Thread.sleep(2000);

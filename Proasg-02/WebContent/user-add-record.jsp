@@ -29,7 +29,7 @@
      <img class="icon" src="data:image/jpg;base64,${user.basephoto}"
             style="width: 70px; border-radius: 80%; margin-right: 10px; margin-bottom: 10px">
 	 <a href="login-page.jsp" class="container-login100-form-btn m-t-17">
-            <button type="submit" class="login100-form-btn">
+            <button type="submit" class="login100-form-btn" style="height:50px; width:150px; font-size:20px">
                   	LOG OUT </button></a>
 	 </h1>
 	 
@@ -41,28 +41,23 @@
 	%>
 	
 	<div class="section">
-       <br><br><br>
-	<form class="w-25 mx-auto" action="./insertdata" method="post" enctype="multipart/form-data">
-		<div class="container">
-
-		<div class="mb-3">
-				<input type="text" class="form-control" id="name" name="name" value="<%= name %>" hidden>
-				<input type="text" class="form-control" id="email" name="email" value="<%= email %>" hidden>
-		</div>
-		<div class="mb-3">
-			<label for="file" class="form-label">File</label>
-			<input type="file" class="form-control" id="file" name="file">
-		</div>
-			
-		<div class="mb-3">
-			<label for="photo" class="form-label">Comment</label>
-			<textarea class="form-control" id="comment" name="comment"></textarea>
-		</div>
-			
-		<div class="mb-3">
-			<input type="submit" class="btn btn-primary" value="Submit">
-		</div>
-		</div>
+    <form action="./insertdata" method="post" enctype="multipart/form-data">
+    	
+    <div class="mb-3">
+			<input type="text" class="form-control" id="name" name="name" value="<%= name %>" hidden>
+			<input type="text" class="form-control" id="email" name="email" value="<%= email %>" hidden>
+	</div>
+  	<div>
+    <label for="file">Select a file to upload:</label>
+    <input type="file" id="file" name="file">
+  	</div>
+ 	<div>
+    <label for="comment">Enter a comment about the file:</label>
+    <textarea id="comment" name="comment"></textarea>
+  	</div>
+  	<div>
+    <input type="submit" value="Upload" style="height:50px; width:150px">
+  	</div>
 	</form>
 	</div>
 	

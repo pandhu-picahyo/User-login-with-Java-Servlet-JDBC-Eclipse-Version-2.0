@@ -19,6 +19,12 @@
 			background: linear-gradient(#FFFFFF, #E6E6FA, #C3B1E1, #E0B0FF, #CF9FFF, #FFFFFF);
 		}
 	
+		button {
+  			width: 100%;
+  			height: 55px;
+  			margin: 5px;
+  			background-color: #7FFFD4;
+		}
 		
 </style>
 </head>

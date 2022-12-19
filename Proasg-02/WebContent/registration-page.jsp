@@ -54,32 +54,17 @@
 		background: linear-gradient(#FFFFFF, #E6E6FA, #C3B1E1, #E0B0FF, #CF9FFF, #FFFFFF);
 	}
 	
-	.btn-group a {
-  			background-color: #4187f0; 
-  			border: 1px solid blue; 
-  			color: black; 
-  			padding: 20px 48px; 
-  			cursor: pointer; 
-  			float: left; 
-  			width: 50%;
-  			margin: 20px;
-	}
-
-	.btn-group a:not(:last-child) {
-  			border-right: none; /* Prevent double borders */
-	}
-
-	/* Clear floats (clearfix hack) */
-	.btn-group:after {
-  			content: "";
-  			clear: both;
-  			display: table;
-	}
-
-	/* Add a background color on hover */
-	.btn-group a:hover {
-  			background-color: yellow;
-	}
+	.styled {
+    		border: 1;
+    		line-height: 4.5;
+    		padding: 0 20px;
+    		font-size: 1rem;
+    		text-align: center;
+    		color: #00008B;
+    		border-radius: 10px;
+    		background-color: #E5E4E2;
+    
+		}
 	
 </style>
 </head>
@@ -122,15 +107,16 @@
 			<input type="file" id="photo" name="photo" accept="image/jpeg, image/png, image/jpg">
 			
 			<br><br><br>
-			<input type="submit" value="Submit">
+			<input type="submit" value="Submit" style="height:50px; width:150px">
 
 		</div>
 	</form>
 	
 	<br/> 
-		<div class="btn-group">
-		<a class="btn btn-outline-primary" href="login-page.jsp" role="button">Back to Login</a>
-</div>
+		<a href="login-page.jsp" class="container-login100-form-btn m-t-17">
+            <button type="submit" class="favorite styled">
+            Back to Front Page
+            </button></a><br><br>
 </div>
 <%@ include file = "footer-general.html" %>
 
