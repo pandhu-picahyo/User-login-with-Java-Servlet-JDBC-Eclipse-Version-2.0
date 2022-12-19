@@ -19,3 +19,13 @@ Version 2.1
 - changing link for edit button at Admin_View at com.display
 - changing link for edit button at Detail_Data at com.display
 - changing link for edit button at User_View at com.display
+
+Version 2.2
+- editing Insert_User_Data.java at com.control
+- editing User_View at com.display
+- editing Create_2nd_Table at com.table
+- editing login-page.jsp
+- editing registration-page.jsp
+- editing user-add-record.jsp
+- editing user-home-page.jsp
+- editing readme.md
